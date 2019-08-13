@@ -102,15 +102,20 @@ input {
     border-radius: 5px;
 }
 
-.page_footer {
-    position: absolute;
-}
-
 footer {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 1px;
+    left: 1px;
     font-size: 15px;
+    background-color: rgb(247, 247, 245);
+    width: 1655px;
+    padding-right: 15px;
+    padding-left: 10px;
+ 
 }
 
-
+.bottom_right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
